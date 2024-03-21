@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+  }
+  
+  .button {
+    padding: 1rem;
+    margin-top: 2rem;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  
+  .sentiment {
+    margin-top: 2rem;
+    font-weight: bold;
+    font-size:x-large;
+  }
+  

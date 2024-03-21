@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .videoTitle {
+    margin-bottom: 20px;
+  }
+  
+  .iframe {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .innervideos {
+    margin: 20px;
+  }
+  
+  .videoWrapper {
+    position: relative;
+  }
+  
+  .videoWrapper iframe {
+    width: 560px;
+    height: 315px;
+  }
+  
+  .deleteButton {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .deleteButton:hover {
+    background-color: #d32f2f;
+  }
+  

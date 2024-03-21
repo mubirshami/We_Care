@@ -1,0 +1,205 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*{
+  font-family: 'Baloo Bhai 2', cursive; 
+  
+}
+.navigation{
+  padding: 12px 12%;
+  position: sticky;
+  top: 0px;
+  background-color: white;
+}
+.btn {
+  border-radius: 31px;
+  width: 93px;
+  font-size: 0.9rem;
+}
+#signin {
+  background-color: white;
+  color: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  margin-top: 15px;
+  color: #000000;
+  
+}
+#register {
+  background-color: #007bff;
+  border: none;
+  color: white;
+}
+
+.nav-link{
+  color: black;
+}
+.navbar-light .navbar-nav .nav-link.active {
+  color: #007bff;
+  font-weight: bold;
+}
+.navbar-nav
+{
+  align-items: center;
+  width: 100%;
+}
+@media (max-width:970px){
+  .navigation{
+    padding: 0px;
+  }
+}
+
+
+.transform{
+  transition: all 0.7s ease-in-out;
+}
+.transform:hover{
+  transform: scale(1.1);
+}
+
+/* //Features CSS */
+
+#ul {
+  list-style: none;
+}
+
+#ul li:before {
+  content: '✓';
+  padding-right: 12px;
+}
+
+#features-left{
+  width:33%;
+  margin:0px 72px;
+  
+}
+
+@media (max-width:1000px){
+  #features-left{
+    width: 100%;
+  margin: 0px;
+  }
+}
+
+
+
+/* //pricing CSS */
+
+.pricing-button{
+  display: block;
+  margin: auto;
+  border-radius: 32px;
+  border: 1px solid #007bff;
+  color: #007bff;
+  background-color: white;
+  padding: 10px 22px;
+}
+.pricing-button:hover{
+  background-color: #007bff;
+  color: white;
+}
+#pricing-button-mid:hover{
+  background-color: #6f9ccc;
+  color: white;
+}
+#pricing-button-mid{
+  border: none;
+  color: white;
+  background-color: #007bff;
+}
+.priceBox{
+  padding: 31px;
+  /* border: 1px solid #007bff; */
+  background-color: whitesmoke;
+  margin: 41px 61px;
+  width: 21%;
+  border-radius: 32px;
+}
+
+.d-flex {
+  
+  display: flex!important;
+  width: 300px;
+  align-items: center;
+}
+
+@media (max-width: 1200px){
+  .priceBox{
+    width: 30%;
+    margin: 12px 6px;
+  }
+}
+@media (max-width: 767px){
+  .priceBox{
+    width: 100%;
+    margin: 12px 6px;
+  }
+}
+
+
+
+/* //Contact CSS */
+
+#footer2 {
+  text-align: center;
+  
+  display: flex;
+}
+#footer2 .form {
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto;
+  width: 50%;
+  
+  text-align: center;
+}
+#footer2 .form input {
+  margin: 14px;
+  height: 24px;
+  background: transparent;
+  border-bottom-width: 1px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  align-content: center;
+
+  font-size: 1rem;
+  
+}
+#footer2 .form input:focus {
+  outline: none;
+}

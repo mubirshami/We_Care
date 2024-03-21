@@ -1,0 +1,70 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.userList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.userItem {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+}
+
+.username {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.email {
+  color: #888;
+  margin-bottom: 5px;
+}
+
+.verified {
+  color: #4caf50;
+}
+
+p {
+  font-style: italic;
+  color: #888;
+}
+
+.deleteButton {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.deleteButton:hover {
+  background-color: #c62828;
+}
