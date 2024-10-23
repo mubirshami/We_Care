@@ -24,18 +24,4 @@ router.get('/get',verifyToken,async(req,res,next)=>{
   }
 });
 
-// router.delete('/delete/:id', async (req, res, next) => {
-//   try {
-//     const journal = await Journal.findOneAndDelete({ _id: req.params.id });
-//     if (!journal) {
-//       return res.status(404).send({ message: `Journal not found with ID ${req.params.id}` });
-//     }
-//     return res.status(200).send({ message: `Journal with ID ${req.params.id} deleted successfully` });
-//   } catch (error) {
-//     console.log(error);
-//     next(error);
-//   }
-// });
-
-
 module.exports = router;
