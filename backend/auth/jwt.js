@@ -1,11 +1,7 @@
 const jwt =require('jsonwebtoken');
-const { token } = require('morgan');
 
 const verifyToken = (req, res, next) => {
-    // const token = req.cookies.access_token;
     const token= req.headers['authorization']; 
-    console.log("abbubuu")
-    console.log(req.headers)
     if(!token){
         return next(new Error("You dont have JWT"))
     }
